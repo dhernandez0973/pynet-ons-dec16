@@ -1,5 +1,5 @@
 
-Functions Ex3
+Functions Ex2
 --------------
 
 Expand on functions exercise 1.
