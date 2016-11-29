@@ -43,7 +43,7 @@ juniper_srx = dict(
 )
 
 nxos1 = dict(
-    hostname='31.220.71.215',
+    hostname='85.190.176.121',
     device_type='nxos',
     username='pyclass',
     password=password,
@@ -79,7 +79,7 @@ test_methods = [
     "get_lldp_neighbors_detail",
     "get_bgp_neighbors",
     "get_environment",
-    "get_snmp_information",
+#    "get_snmp_information",
     "get_users",
     "get_config",
 #    "get_bgp_neighbors_detail",
