@@ -1,4 +1,11 @@
-{% macro intf_trunk(native_vlan=1, trunk_allowed_vlans=1) -%} 
+
+Use a Jinja2 macro to create port definitions for trunk ports and access ports.
+
+For example:
+
+Jinja2 Template
+-----
+{% macro intf_trunk(native_vlan=1, trunk_allowed_vlans=1) -%}
  switchport mode trunk
  switchport trunk native vlan {{ native_vlan }}
  switchport trunk allowed vlan {{ trunk_allowed_vlans }}
