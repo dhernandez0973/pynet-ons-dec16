@@ -8,3 +8,9 @@ Optional1 - Convert your program to a command-line script that accepts a VLAN ID
             VLAN name argument (and then adds/modifies the VLAN in an idempotent way).
 
 Optional2 - Write your program to use threads so this happens concurrently.
+
+
+For partial solution see:
+
+./day5/netmiko_vlan.py
+./day5/my_devices.py
