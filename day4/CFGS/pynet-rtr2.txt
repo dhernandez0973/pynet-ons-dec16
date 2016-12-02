@@ -1,28 +1,12 @@
 service timestamps debug datetime msec localtime show-timezone
 service timestamps log datetime msec localtime show-timezone
 !
+!
+hostname pynet-rtr2
+hostname pynet-rtr2
+hostname pynet-rtr2
 hostname pynet-rtr2
 !
-!
-interface FastEthernet0
- no ip address
-!
-interface FastEthernet1
- no ip address
-!
-interface FastEthernet2
- no ip address
-!
-interface FastEthernet3
- no ip address
-!
-interface GigabitEthernet1
- ip address 10.10.10.10 255.255.255.0
- duplex auto
- speed auto
-!
-interface Vlan1
- no ip address
 !
 ip default-gateway 10.10.20.1
 !
