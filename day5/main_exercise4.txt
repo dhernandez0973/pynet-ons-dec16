@@ -3,3 +3,6 @@ from the four Arista switches (except for VLAN1).
 
 Optional - See if you can dynamically retrieve the list of VLANS on each switch
 in one task, and then use this list of VLANs in a second task to remove the VLANs.
+
+For reference see:
+./day4/ansible21_ex2.yml
