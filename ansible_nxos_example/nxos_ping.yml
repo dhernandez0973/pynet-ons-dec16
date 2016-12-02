@@ -1,7 +1,7 @@
 ---
 
 - name: Nexus Ping
-  hosts: nexus 
+  hosts: nxos2
   gather_facts: false
 
   vars:
@@ -15,7 +15,8 @@
     - name: Nexus Ping
       nxos_ping:
         provider: "{{ device }}"
-        dest: 10.1.1.2
+        dest: 10.100.100.2
+        count: 5
         vrf: default
       register: output
 
