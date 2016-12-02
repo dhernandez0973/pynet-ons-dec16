@@ -1,0 +1,5 @@
+Use ntc-ansible line-by-line configuration editing to remove all of the VLANs
+from the four Arista switches (except for VLAN1).
+
+Optional - See if you can dynamically retrieve the list of VLANS on each switch
+in one task, and then use this list of VLANs in a second task to remove the VLANs.
