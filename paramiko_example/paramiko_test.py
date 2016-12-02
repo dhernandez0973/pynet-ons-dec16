@@ -20,4 +20,7 @@ remote_conn.send("\n")
 time.sleep(1)
 
 output = remote_conn.recv(10000)
+remote_conn.send("show ip int brief\n")
+time.sleep(1)
+output = remote_conn.recv(10000)
 print output
