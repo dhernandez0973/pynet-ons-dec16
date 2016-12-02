@@ -17,3 +17,8 @@ require that you load the four Nexus devices into the database. If you are
 using Ansible this will require you construct a dynamic inventory script.
 Start with my dynamic inventory script as a starting point.
 
+
+For partial solution of this see:
+
+./day5/save_config_ex.py
+./day5/save_config_ex.yml
